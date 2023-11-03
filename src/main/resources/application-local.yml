@@ -1,13 +1,10 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/crud
+    url: jdbc:mysql://localhost:3306/fastVideo
     username: root
     password: LRG@951089
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQL8Dialect
+    format-sql: true
+
